@@ -1,6 +1,6 @@
-import { PluginFunc } from 'dayjs'
+import { PluginFunc } from '../index.d.ts'
 
-declare module 'dayjs' {
+declare module '../index.d.ts' {
   interface ConfigTypeMap {
     arraySupport: [number?, number?, number?, number?, number?, number?, number?]
   }

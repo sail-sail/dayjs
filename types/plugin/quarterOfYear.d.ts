@@ -1,9 +1,9 @@
-import { PluginFunc, ConfigType, QUnitType, OpUnitType } from 'dayjs'
+import { PluginFunc, ConfigType, QUnitType, OpUnitType } from '../index.d.ts'
 
 declare const plugin: PluginFunc
 export = plugin
 
-declare module 'dayjs' {
+declare module '../index.d.ts' {
   interface Dayjs {
     quarter(): number
 

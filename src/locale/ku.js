@@ -1,5 +1,5 @@
 // Kurdish [ku]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 export const englishToArabicNumbersMap = {
   1: '١',

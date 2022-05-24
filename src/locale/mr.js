@@ -1,5 +1,5 @@
 // Marathi [mr]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 const locale = {
   name: 'mr',

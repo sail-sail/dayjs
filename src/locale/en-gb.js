@@ -1,5 +1,5 @@
 // English (United Kingdom) [en-gb]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 const locale = {
   name: 'en-gb',

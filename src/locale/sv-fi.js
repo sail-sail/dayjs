@@ -1,5 +1,5 @@
 // Finland Swedish [sv-fi]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 const locale = {
   name: 'sv-fi',

@@ -421,6 +421,7 @@ declare namespace dayjs {
 
   export function locale(preset?: string | ILocale, object?: Partial<ILocale>, isLocal?: boolean): string
 
+  // deno-lint-ignore no-explicit-any
   export function isDayjs(d: any): d is Dayjs
 
   export function unix(t: number): Dayjs

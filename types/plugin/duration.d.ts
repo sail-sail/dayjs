@@ -1,5 +1,5 @@
-import { PluginFunc } from 'dayjs'
-import { OpUnitType, UnitTypeLongPlural } from 'dayjs';
+import { PluginFunc } from '../index.d.ts'
+import { OpUnitType, UnitTypeLongPlural } from '../index.d.ts';
 
 declare const plugin: PluginFunc
 export as namespace plugin;
@@ -74,7 +74,7 @@ declare namespace plugin {
   }
 }
 
-declare module 'dayjs' {
+declare module '../index.d.ts' {
   interface Dayjs {
     add(duration: plugin.Duration): Dayjs
     subtract(duration: plugin.Duration): Dayjs

@@ -1,5 +1,5 @@
 // Armenian [hy-am]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 const locale = {
   name: 'hy-am',

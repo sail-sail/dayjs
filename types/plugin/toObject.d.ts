@@ -1,4 +1,4 @@
-import { PluginFunc } from 'dayjs'
+import { PluginFunc } from '../index.d.ts'
 
 declare const plugin: PluginFunc
 export = plugin
@@ -13,7 +13,7 @@ interface DayjsObject {
   milliseconds: number
 }
 
-declare module 'dayjs' {
+declare module '../index.d.ts' {
   interface Dayjs {
     toObject(): DayjsObject
   }

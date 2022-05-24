@@ -1,11 +1,11 @@
-import { PluginFunc, OpUnitType, ConfigType } from 'dayjs'
+import { PluginFunc, OpUnitType, ConfigType } from '../index.d.ts'
 
 declare const plugin: PluginFunc
 export = plugin
 
 type ISOUnitType = OpUnitType | 'isoWeek';
 
-declare module 'dayjs' {
+declare module '../index.d.ts' {
   interface Dayjs {
     isoWeekYear(): number
     isoWeek(): number

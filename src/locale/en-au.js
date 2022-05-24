@@ -1,5 +1,5 @@
 // English (Australia) [en-au]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 const locale = {
   name: 'en-au',

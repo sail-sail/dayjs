@@ -1,9 +1,9 @@
-import { PluginFunc, ConfigType } from 'dayjs'
+import { PluginFunc, ConfigType } from '../index.d.ts'
 
 declare const plugin: PluginFunc
 export = plugin
 
-declare module 'dayjs' {
+declare module '../index.d.ts' {
   interface Dayjs {
     tz(timezone?: string, keepLocalTime?: boolean): Dayjs
     offsetName(type?: 'short' | 'long'): string | undefined

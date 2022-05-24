@@ -1,5 +1,5 @@
 // Albanian [sq]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 const locale = {
   name: 'sq',

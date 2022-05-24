@@ -1,5 +1,5 @@
 // Finnish [fi]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 function relativeTimeFormatter(number, withoutSuffix, key, isFuture) {
   const past = {

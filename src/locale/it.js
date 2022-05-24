@@ -1,5 +1,5 @@
 // Italian [it]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 const locale = {
   name: 'it',

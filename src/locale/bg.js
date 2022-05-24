@@ -1,5 +1,5 @@
 // Bulgarian [bg]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 const locale = {
   name: 'bg',

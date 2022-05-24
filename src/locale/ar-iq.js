@@ -1,5 +1,5 @@
 //  Arabic (Iraq) [ar-iq]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 const locale = {
   name: 'ar-iq',

@@ -1,5 +1,5 @@
 // Spanish [es]
-import dayjs from 'dayjs'
+import dayjs from 'dayjs.js'
 
 const locale = {
   name: 'es',

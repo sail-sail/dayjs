@@ -1,9 +1,9 @@
-import { PluginFunc } from 'dayjs'
+import { PluginFunc } from '../index.d.ts'
 
 declare const plugin: PluginFunc
 export = plugin
 
-declare module 'dayjs' {
+declare module '../index.d.ts' {
   type WeekdayNames = [string, string, string, string, string, string, string];
   type MonthNames = [string, string, string, string, string, string, string, string, string, string, string, string];
 
